@@ -36,7 +36,7 @@ const Blogs = () => {
     <div className="news-container pt-32 pb-10">
       <h2 className="text-center text-5xl font-bold pb-4 mb-10">Crypto Blogs</h2>
       <ul className="news-list flex flex-col items-center">
-        {blogs.slice(0, 10).map((article)=> (
+        {blogs.map((article)=> (
           <li
             key={article._id}
             className="news-item p-4 mb-5 border-b bg-neutral-200 rounded-lg w-full md:w-[900px]"
